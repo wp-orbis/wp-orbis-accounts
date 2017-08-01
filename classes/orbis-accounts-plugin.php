@@ -136,6 +136,7 @@ class Orbis_Accounts_Plugin extends Orbis_Plugin {
 			SELECT
 				subscription.id, 
 				subscription.type_id,
+				company.name AS company_name,
 				product.name AS product_name,
 				product.price,
 				subscription.name,

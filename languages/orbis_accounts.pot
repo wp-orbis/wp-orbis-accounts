@@ -1,0 +1,95 @@
+# Copyright (C) 2017 Pronamic
+# This file is distributed under the Copyright (c) Pronamic.
+msgid ""
+msgstr ""
+"Project-Id-Version: Orbis Accounts 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/orbis-accounts\n"
+"POT-Creation-Date: 2016-09-28 12:25:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: classes/orbis-accounts-plugin.php:30
+msgid "Add New Account"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:31
+msgid "New Account"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:32
+msgid "Edit Account"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:33
+msgid "View Account"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:34
+msgid "All Accounts"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:35
+msgid "Search Accounts"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:36
+msgid "Parent Account:"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:37
+msgid "No accounts found."
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:38
+msgid "No accounts found in Trash."
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:40
+msgid "Description."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Orbis Accounts"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.pronamic.eu/plugins/orbis-accounts/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pronamic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.pronamic.eu/"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:25
+msgctxt "post type general name"
+msgid "Accounts"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:26
+msgctxt "post type singular name"
+msgid "Account"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:27
+msgctxt "admin menu"
+msgid "Accounts"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:28
+msgctxt "add new on admin bar"
+msgid "Account"
+msgstr ""
+
+#: classes/orbis-accounts-plugin.php:29
+msgctxt "account"
+msgid "Add New"
+msgstr ""

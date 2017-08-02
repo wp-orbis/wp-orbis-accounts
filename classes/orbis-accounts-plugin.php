@@ -66,9 +66,13 @@ class Orbis_Accounts_Plugin extends Orbis_Plugin {
 	public function p2p_init() {
 		if ( post_type_exists( 'orbis_company' ) ) {
 			p2p_register_connection_type( array(
-				'name' => 'orbis_accounts_to_companies',
-				'from' => 'orbis_account',
-				'to'   => 'orbis_company',
+				'name'         => 'orbis_accounts_to_companies',
+				'from'         => 'orbis_account',
+				'to'           => 'orbis_company',
+				'admin_column' => 'from',
+				'from_labels'  => array(
+					'column_title' => __( 'Companies', 'orbis-accounts' ),
+				)
 			) );
 		}
 	}

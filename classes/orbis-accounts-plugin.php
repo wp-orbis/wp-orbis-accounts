@@ -21,7 +21,7 @@ class Orbis_Accounts_Plugin extends Orbis_Plugin {
 
 	public function init() {
 		register_post_type( 'orbis_account', array(
-			'labels'             =>  array(
+			'labels'              => array(
 				'name'               => _x( 'Accounts', 'post type general name', 'orbis_accounts' ),
 				'singular_name'      => _x( 'Account', 'post type singular name', 'orbis_accounts' ),
 				'menu_name'          => _x( 'Accounts', 'admin menu', 'orbis_accounts' ),
@@ -35,7 +35,7 @@ class Orbis_Accounts_Plugin extends Orbis_Plugin {
 				'search_items'       => __( 'Search Accounts', 'orbis_accounts' ),
 				'parent_item_colon'  => __( 'Parent Account:', 'orbis_accounts' ),
 				'not_found'          => __( 'No accounts found.', 'orbis_accounts' ),
-				'not_found_in_trash' => __( 'No accounts found in Trash.', 'orbis_accounts' )
+				'not_found_in_trash' => __( 'No accounts found in Trash.', 'orbis_accounts' ),
 			),
 			'description'        => __( 'Description.', 'orbis_accounts' ),
 			'public'             => true,
@@ -72,7 +72,7 @@ class Orbis_Accounts_Plugin extends Orbis_Plugin {
 				'admin_column' => 'from',
 				'from_labels'  => array(
 					'column_title' => __( 'Companies', 'orbis-accounts' ),
-				)
+				),
 			) );
 		}
 	}
